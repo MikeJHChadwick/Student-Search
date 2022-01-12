@@ -1,0 +1,36 @@
+#BlueJ class context
+comment0.target=Student
+comment1.params=
+comment1.target=Student()
+comment1.text=\r\n\ Constructs\ a\ Student\ object\ with\ default\ values\r\n
+comment10.params=otherStudent
+comment10.target=int\ compareTo(Student)
+comment10.text=\r\n\ Overrides\ the\ standard\ compareTo\ method\ offered\ by\ Object\ to\ get\ the\ proper\ output\ \r\n\ for\ our\ subclass\ Student\ object\r\n\ Compares\ two\ Student\ objects\ for\ proper\ sequencing\ in\ our\ BinarySearchTree\r\n\ @param\ otherObject\ -\ which\ is\ a\ Student\ object\ to\ compare\ with\ the\ host\ Student\ object\r\n\ @return\ -\ a\ integer\ representing\ the\ difference\ between\ the\ two\ objects\r\n
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment11.text=\r\n\ Overrides\ the\ standard\ toString\ method\ offered\ by\ Object\ to\ get\ the\ proper\ output\ \r\n\ for\ our\ subclass\ Student\ object\r\n\ @return\ String\ -\ returns\ all\ the\ variable's\ associated\ to\ a\ student\ formatted\ to\ readability\r\n
+comment2.params=studId
+comment2.target=Student(int)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ Student\r\n\ @param\ studId\ -\ the\ student\ ID\ to\ be\ used\ in\ the\ search\r\n
+comment3.params=studId\ studName\ studMajor
+comment3.target=Student(int,\ java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ Constructor\ for\ Student\ object\ with\ parameter\ values\r\n\ @param\ studId\ -\ the\ student's\ ID\r\n\ @param\ studName\ -\ the\ student's\ name\r\n\ @param\ studMajor\ -\ the\ student's\ major\r\n\ @throw\ Exception\ -\ passed\ on\ from\ Student\ set\ methods\r\n
+comment4.params=
+comment4.target=int\ getId()
+comment4.text=\r\n\ Gets\ the\ cards\ type\r\n\ @return\ studId\ -\ returns\ the\ student's\ ID\ number\r\n
+comment5.params=studId
+comment5.target=void\ setId(int)
+comment5.text=\r\n\ Sets\ the\ student's\ ID\ number\r\n\ @pram\ studId\ -\ sets\ the\ student's\ ID\ number\r\n\ @throw\ Exception\ -\ chekcs\ that\ the\ Student\ object\ if\ it\ alreadys\ has\ a\ number\r\n\ and\ that\ it's\ greater\ than\ zero\r\n
+comment6.params=
+comment6.target=java.lang.String\ getName()
+comment6.text=\r\n\ Gets\ the\ student's\ name\r\n\ @return\ studName\ -\ returns\ the\ student's\ name\r\n
+comment7.params=studName
+comment7.target=void\ setName(java.lang.String)
+comment7.text=\r\n\ Sets\ the\ student's\ Name\r\n\ @param\ studName\ -\ sets\ the\ student's\ name\r\n\ @throw\ Exception\ \=\ if\ the\ name\ is\ blank\r\n
+comment8.params=
+comment8.target=java.lang.String\ getMajor()
+comment8.text=\r\n\ Gets\ the\ student's\ major\r\n\ @return\ getMajor\ -\ returns\ the\ student's\ major\r\n
+comment9.params=studMajor
+comment9.target=void\ setMajor(java.lang.String)
+comment9.text=\r\n\ Sets\ the\ student's\ major\r\n\ @param\ studMajor\ -\ sets\ the\ student's\ major\r\n\ @throw\ Exception\ -\ if\ it\ does'nt\ meet\ the\ minimum\ length\r\n
+numComments=12

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=StudentSearch
+comment1.params=
+comment1.target=void\ main()
+comment1.text=\r\n\ Creates\ the\ initial\ BinarySearchTree\ and\ populates\ it\ with\ firve\ Student\ objects\r\n\ Then\ creates\ and\ loops\ a\ simple\ GUI\ prompting\ the\ user\ for\ input\ for\ how\ they\ wish\r\n\ to\ interact\ with\ the\ tree\r\n\ @throw\ Exception\ -\ if\ passed\ from\ a\ subordinate\ method\r\n\ @throw\ IOException\ -\ if\ pased\ from\ a\ subordinate\ method\r\n
+numComments=2

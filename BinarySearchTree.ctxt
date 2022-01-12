@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=BinarySearchTree
+comment1.params=
+comment1.target=BinarySearchTree()
+comment1.text=\r\n\ Constructs\ an\ empty\ tree.\r\n
+comment2.params=obj
+comment2.target=void\ add(java.lang.Comparable)
+comment2.text=\r\n\ Inserts\ a\ new\ node\ into\ the\ tree.\r\n\ \r\n\ @param\ obj\ the\ object\ to\ insert\r\n
+comment3.params=obj
+comment3.target=java.lang.Comparable\ find(java.lang.Comparable)
+comment3.text=\r\n\ Tries\ to\ find\ a\ specific\ object\ in\ the\ tree.\ It\ uses\ only\ the\ data\r\n\ from\ the\ input\ object\ to\ search\ the\ tree\ using\ the\ compareTo()\ method\r\n\ specified\ for\ the\ class\ \r\n\ \r\n\ @param\ obj\ -\ object\ with\ the\ data\ (key\ of)\ the\ object\ to\ be\ found\r\n\ @return\ reference\ to\ the\ object,\ if\ it\ is\ contained\ in\ the\ tree,\ \r\n\ null\ if\ not\r\n
+comment4.params=obj
+comment4.target=void\ remove(java.lang.Comparable)
+comment4.text=\r\n\ Tries\ to\ find\ and\ remove\ an\ object\ from\ the\ tree.\ It\ uses\ only\ the\ data\r\n\ from\ the\ input\ object\ to\ search\ the\ tree\ using\ the\ compareTo()\ method\r\n\ specified\ for\ the\ class.\ Rearranges\ the\ tree\ members\ after\ removal.\r\n\ Does\ nothing\ if\ the\ object\ is\ not\ contained\ in\ the\ tree.\ \r\n\ \r\n\ @param\ obj\ the\ object\ to\ remove\r\n
+comment5.params=
+comment5.target=void\ print()
+comment5.text=\r\n\ Prints\ the\ contents\ of\ the\ tree\ in\ sorted\ order.\r\n
+comment6.params=parent
+comment6.target=void\ print(BinarySearchTree.Node)
+comment6.text=\r\n\ Prints\ a\ node\ and\ all\ of\ its\ descendants\ in\ sorted\ order.\r\n\ \r\n\ @param\ parent\ the\ root\ of\ the\ subtree\ to\ print\r\n
+comment7.params=
+comment7.target=java.util.ArrayList\ getList()
+comment7.text=\r\n\ Returns\ a\ new\ ArrayList\ of\ objects\r\n\ \r\n\ @return\ an\ Arraylist\ Object\ with\ /\ without\ node\ components\r\n
+comment8.params=list\ parent
+comment8.target=void\ getList(java.util.ArrayList,\ BinarySearchTree.Node)
+comment8.text=\r\n\ Returns\ an\ empty\ or\ complete\ tree\ based\ on\ the\ root\ node\ \r\n\ \r\n\ @param\ list\ -\ the\ list\ to\ which\ elements\ are\ to\ be\ added\r\n\ @param\ parent\ -\ the\ root\ of\ the\ tree\ to\ be\ created\r\n
+numComments=9
